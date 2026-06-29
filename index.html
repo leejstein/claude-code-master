@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클로드 코드 마스터 - 목차 및 링크 관리</title>
+    <style>
+        :root {
+            --bg-color: #f8f9fa;
+            --container-bg: #ffffff;
+            --text-color: #333333;
+            --primary-color: #495057;
+            --accent-color: #0066cc;
+            --border-color: #dee2e6;
+            --part-bg: #e9ecef;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--container-bg);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        h1 {
+            text-align: center;
+            color: #212529;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 15px;
+            margin-top: 0;
+        }
+        .part-title {
+            background-color: var(--part-bg);
+            padding: 10px 15px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border-left: 5px solid var(--primary-color);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .chapter {
+            margin-bottom: 25px;
+            padding-left: 5px;
+        }
+        .chapter-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+        }
+        .section-list {
+            list-style-type: none;
+            padding-left: 15px;
+            margin: 0;
+        }
+        .section-item {
+            margin-bottom: 8px;
+        }
+        .section-name {
+            font-weight: 500;
+        }
+        /* 링크 리스트 스타일 */
+        .link-list {
+            list-style-type: disc;
+            padding-left: 25px;
+            margin-top: 4px;
+            margin-bottom: 8px;
+        }
+        .link-item {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .link-item a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link-item a:hover {
+            text-decoration: underline;
+        }
+        .page-num {
+            background-color: #e2e8f0;
+            color: #4a5568;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>클로드 코드 마스터 링크 관리자</h1>
+    
+    <ul class="link-list" style="padding-left: 15px; margin-top: 15px;">
+        <li class="link-item">
+            <a href="https://github.com/claude-code-expert/" target="_blank">Claude Code: All in One Shot Repository</a>
+        </li>
+    </ul>
+
+    <div class="part-title">[ 1부 | 시작하기 전에 ]</div>
+    
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 1 AI 시대의 개발자 패러다임</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">1.1 개발자의 역할 변화</span></li>
+            <li class="section-item"><span class="section-name">1.2 AI 코딩 어시스턴트란 무엇인가</span></li>
+            <li class="section-item"><span class="section-name">1.3 클로드 코드 소개</span></li>
+            <li class="section-item"><span class="section-name">1.4 더 많은 실험이 가능해진 시대</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 2 클로드 코드 설치와 환경 구성</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">2.1 클로드 코드 개발 환경 설정하기</span></li>
+            <li class="section-item"><span class="section-name">2.2 첫 번째 대화: Hello, World</span></li>
+            <li class="section-item"><span class="section-name">2.3 클로드 모델 계열 이해하기</span></li>
+            <li class="section-item"><span class="section-name">2.4 기본 명령어(슬래시 커맨드)와 사용법 익히기</span></li>
+            <li class="section-item"><span class="section-name">2.5 CLAUDE.md로 프로젝트 설정하기</span></li>
+            <li class="section-item"><span class="section-name">2.6 Agent Skill 이해하기</span></li>
+            <li class="section-item"><span class="section-name">2.7 Hook으로 워크플로 자동화하기</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 3 AI와 함께하는 개발 방법론</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">3.1 왜 설계가 중요한가</span></li>
+            <li class="section-item"><span class="section-name">3.2 작은 단위로 쪼개기의 힘</span></li>
+            <li class="section-item"><span class="section-name">3.3 명확한 지시의 기술</span></li>
+            <li class="section-item"><span class="section-name">3.4 매 단계 리뷰하기: 주의 깊은 수정의 원칙</span></li>
+            <li class="section-item"><span class="section-name">3.5 AI에게 없는 것 - 개발자의 판단력(Taste)</span></li>
+            <li class="section-item"><span class="section-name">3.6 증강코딩과 TDD - AI 시대의 개발 방식</span></li>
+            <li class="section-item"><span class="section-name">3.7 클로드 코드에서 MCP 설정하기</span></li>
+        </ul>
+    </div>
+
+    <div class="part-title">[ 2부 | 기초편_풀스택 TODO 앱 개발 ]</div>
+    
+    <ul class="link-list" style="padding-left: 15px;">
+        <li class="link-item">
+            <a href="https://github.com/claude-code-expert/todo-app" target="_blank">todo 앱 repository</a>
+        </li>
+    </ul>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 4 프로젝트 소개와 요건 정의</div>
+        <ul class="section-list">
+            <li class="section-item">
+                <span class="section-name">4.1 TODO 앱으로 배우는 풀스택 개발</span>
+                <ul class="link-list">
+                    <li class="link-item"><span class="page-num">p196</span> <a href="https://github.com/claude-code-expert/todo-app/tree/main/docs" target="_blank">스펙 문서 repository</a></li>
+                    <li class="link-item"><span class="page-num">p200</span> <a href="https://en.wikipedia.org/wiki/Swimlane" target="_blank">Swimlane</a></li>
+                    <li class="link-item"><span class="page-num">p200</span> <a href="https://en.wikipedia.org/wiki/Kanban" target="_blank">Kanban</a></li>
+                </ul>
+            </li>
+            <li class="section-item"><span class="section-name">4.2 요구사항 정의하기</span></li>
+            <li class="section-item"><span class="section-name">4.3 클로드 코드와 함께 요건 문서 작성하기</span></li>
+            <li class="section-item"><span class="section-name">4.4 명세서 설계와 TDD 방식으로 개발 시작하기</span></li>
+            <li class="section-item"><span class="section-name">4.5 SDD와 Spec Kit</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 5 백엔드 구현 - 명세를 코드로 만들기</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">5.1 개발 환경 준비</span></li>
+            <li class="section-item"><span class="section-name">5.2 SDD 워크플로로 API 구현하기</span></li>
+            <li class="section-item"><span class="section-name">5.3 테스트로 명세 검증하기</span></li>
+            <li class="section-item"><span class="section-name">5.4 API 검증과 마무리</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 6 프런트엔드 개발 - 컴포넌트 단위로 구축하기</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">6.1 개발 환경과 구현 전략</span></li>
+            <li class="section-item"><span class="section-name">6.2 컴포넌트 테스트 환경 구성</span></li>
+            <li class="section-item"><span class="section-name">6.3 UI 컴포넌트 설계와 구현</span></li>
+            <li class="section-item"><span class="section-name">6.4 API 연동과 상태 관리</span></li>
+            <li class="section-item"><span class="section-name">6.5 컨테이너 조립과 페이지 통합</span></li>
+            <li class="section-item"><span class="section-name">6.6 디자인 시스템을 이용한 UI와 스타일 개선</span></li>
+            <li class="section-item"><span class="section-name">6.7 프런트엔드 테스트 실행과 검증</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 7 빌드와 배포</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">7.1 개발/스테이징/운영 서버 관리 전략</span></li>
+            <li class="section-item"><span class="section-name">7.2 Vercel을 이용한 배포</span></li>
+            <li class="section-item"><span class="section-name">7.3 Railway를 이용한 백엔드 배포</span></li>
+            <li class="section-item"><span class="section-name">7.4 도메인 연결하기</span></li>
+        </ul>
+    </div>
+
+    <div class="part-title">[ 3부 | 실전편_AI 챗봇 앱 개발 ]</div>
+    
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 8 프로젝트 기획과 설계</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">8.1 AI 챗봇 프로젝트 개요</span></li>
+            <li class="section-item"><span class="section-name">8.2 AWS Bedrock과 모델 선택</span></li>
+            <li class="section-item"><span class="section-name">8.3 프로젝트 범위 결정</span></li>
+            <li class="section-item"><span class="section-name">8.4 시스템 아키텍처 설계</span></li>
+            <li class="section-item"><span class="section-name">8.5 API 설계</span></li>
+            <li class="section-item"><span class="section-name">8.6 프런트엔드 UI 설계</span></li>
+            <li class="section-item"><span class="section-name">8.7 CLAUDE.md 작성</span></li>
+            <li class="section-item"><span class="section-name">8.8 TDD + 클로드 코드 워크플로</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 9 AWS Bedrock 연동</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">9.1 AWS 계정과 IAM 설정</span></li>
+            <li class="section-item"><span class="section-name">9.2 프로젝트 초기화</span></li>
+            <li class="section-item"><span class="section-name">9.3 Bedrock 클라이언트 구현</span></li>
+            <li class="section-item"><span class="section-name">9.4 스트리밍 응답 처리</span></li>
+            <li class="section-item"><span class="section-name">9.5 에러 핸들링</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 10 채팅 API 구현</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">10.1 Express 서버 설정</span></li>
+            <li class="section-item"><span class="section-name">10.2 세션 관리</span></li>
+            <li class="section-item"><span class="section-name">10.3 대화 히스토리 관리</span></li>
+            <li class="section-item"><span class="section-name">10.4 시스템 프롬프트 설계</span></li>
+            <li class="section-item"><span class="section-name">10.5 채팅 API 엔드포인트</span></li>
+            <li class="section-item"><span class="section-name">10.6 통합 테스트</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 11 Tool Use 구현</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">11.1 Tool Use 개념</span></li>
+            <li class="section-item"><span class="section-name">11.2 도구 정의와 스키마</span></li>
+            <li class="section-item"><span class="section-name">11.3 시간 조회 도구 구현</span></li>
+            <li class="section-item"><span class="section-name">11.4 계산기 도구 구현</span></li>
+            <li class="section-item"><span class="section-name">11.5 날씨 API 연동</span></li>
+            <li class="section-item"><span class="section-name">11.6 다중 도구 처리</span></li>
+            <li class="section-item"><span class="section-name">11.7 Tool Use 설계 고려사항</span></li>
+        </ul>
+    </div>
+
+    <div class="chapter">
+        <div class="chapter-title">CHAPTER 12 챗봇 프런트엔드 개발</div>
+        <ul class="section-list">
+            <li class="section-item"><span class="section-name">12.1 React 프로젝트 설정</span></li>
+            <li class="section-item"><span class="section-name">12.2 채팅 UI 컴포넌트</span></li>
+            <li class="section-item"><span class="section-name">12.3 스트리밍 응답 표시</span></li>
+            <li class="section-item"><span class="section-name">12.4 Tool Use 결과 표시</span></li>
+            <li class="section-item"><span class="section-name">12.5 마크다운 렌더링</span></li>
+            <li class="section-item"><span class="section-name">12.6 에러 처리와 로딩 상태</span></li>
+            <li class="section-item"><span class="section-name">12.7 반응형 디자인</span></li>
+            <li class="section-item"><span class="section-name">12.8 App 컴포넌트 통합</span></li>
+            <li class="section-item"><span class="section-name">12.9 풀스택 통합</span></li>
+            <li class="section-item"><span class="section-name">12.10 디자인 개선: shadcn/ui 적용</span></li>
+            <li class="section-item"><span class="section-name">12.11 프런트엔드 설계 고려사항</span></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
